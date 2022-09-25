@@ -56,21 +56,21 @@ public class MCD {
         return n1;
     }
 
-    public void metodosRecursivo() {
-        metodo(n1, n2);
+    public double metodosRecursivo() {
+      return  metodo(n1, n2);
         
     }
 
-    private void metodo(int n1, int n2) {
-        int temporal;
+    private double metodo(int n1, int n2) {
+        int temporal = 0;
         
         while(n2 != 0){
             temporal = n2;
             n2 = n1 % n2;
             n1= temporal;
-            System.out.println(n1);
+            
         }
-        
+        return temporal;
     }
 
  

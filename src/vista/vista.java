@@ -98,6 +98,7 @@ public class vista {
                                 obj1 = new HolaMundo(n);
                                 obj1.holaRecursivo();
                                 break;
+                                
                             case "2":
                                 n = Integer.parseInt(JOptionPane.showInputDialog("Imprimir n numeros"));
                                 obj2 = new Numero(n);
@@ -109,6 +110,7 @@ public class vista {
                                 n = Integer.parseInt(JOptionPane.showInputDialog("Suma de fracciones, ingresa n:"));
                                 obj3 = new Suma(n);
                                 obj3.calcularR();
+                                JOptionPane.showMessageDialog(null, "La fraccion es: " + obj3.calcularR());
                                 break;
 
                             case "4":
@@ -116,11 +118,13 @@ public class vista {
                                 n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa N2"));
                                 obj4 = new MCD(n1, n2);
                                 obj4.metodosRecursivo();
+                                JOptionPane.showMessageDialog(null, "El MCD es: " + obj4.metodosRecursivo());
                                 break;
                             case "5":
                                 n = Integer.parseInt(JOptionPane.showInputDialog("Ingresa la cantidad que se sumara"));
                                 obj5 = new SumaRecursiva(n);
                                 obj5.metodoR();
+                               
                                 break;
                         }
                     } while (SENTINEL);

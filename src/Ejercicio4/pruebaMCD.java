@@ -24,6 +24,6 @@ public class pruebaMCD {
         
         //System.out.println(obj.MCDIterativo());
         
-        obj.metodosRecursivo();
+        JOptionPane.showMessageDialog(null, "El MCD es: " + obj.metodosRecursivo()); 
     }
 }

@@ -20,8 +20,8 @@ public class PruebaNumero {
         
         Numero obj = new Numero(n); 
         
-        System.out.println(obj.NumeroIterativo());
-        //obj.NumeroR();
+        //System.out.println(obj.NumeroIterativo());
+        obj.NumeroR();
         
     }
 }

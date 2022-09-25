@@ -5,7 +5,6 @@
  */
 package Ejercicio2;
 
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -42,7 +41,7 @@ public class Numero {
 
     //Metodo recursivo
     private void NumeroR(int n) {
-        String cadena = "";
+        
             //caso base
         if (n == 0 || n == 1) {
             System.out.println(n);

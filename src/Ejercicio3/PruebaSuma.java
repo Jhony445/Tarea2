@@ -21,7 +21,7 @@ public class PruebaSuma {
         
         Suma obj = new Suma(n); 
         
-        //çSystem.out.println(obj.calcularIterativo());
-        obj.calcularR();
+        //System.out.println(obj.calcularIterativo());
+        JOptionPane.showMessageDialog(null, "El factorial iterativo es: " + obj.calcularR());
     } 
 }
